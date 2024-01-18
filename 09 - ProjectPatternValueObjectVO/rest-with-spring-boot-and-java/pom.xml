@@ -14,7 +14,6 @@
 	<name>rest-with-spring-boot-and-java</name>
 	<properties>
 		<java.version>21</java.version>
-		<modelMapper.version>3.0.0</modelMapper.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -37,12 +36,6 @@
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 			<version>8.0.33</version>
-		</dependency>
-
-		<dependency>
-			<groupId>org.modelmapper</groupId>
-			<artifactId>modelmapper</artifactId>
-			<version>${modelMapper.version}</version>
 		</dependency>
 	</dependencies>
 
